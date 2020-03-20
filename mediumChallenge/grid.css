@@ -30,7 +30,7 @@ body{
     /*background-color: #ADEFD1FF;*/
     background-color: whitesmoke;
     display: grid;
-    grid-template-rows: 1.5rem 2rem 40% auto 20%;
+    grid-template-rows: 1.5rem 2rem 32% auto 20%;
     padding: 15px;
     justify-content: center;
     justify-items: center;
@@ -51,7 +51,7 @@ body{
     text-decoration: none;   
 }
 .descriptionStyling{
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
 }
 .descriptionStyling_format{
