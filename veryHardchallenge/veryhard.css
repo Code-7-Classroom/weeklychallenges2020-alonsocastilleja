@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.newspaper__title {
+  margin: 5px auto;
+  width: 75%;
+  background-color: #b3b0ae;
+  height: 120px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.newspaper__title--black {
+  font: 2rem "Times New Roman", sans-serif;
+  font-weight: bold;
+  height: 1.5rem;
+  text-align: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newspaper__grid {
+  margin: 5px auto;
+  width: 75%;
+  height: 700px;
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (33%)[3];
+      grid-template-columns: repeat(3, 33%);
+  grid-column-gap: 5px;
+}
+
+.newspaper__grid--image {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.newspaper__grid--heading {
+  font: 0.9rem "Georgia", sans-serif;
+  padding: 15px;
+  height: 1rem;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.newspaper__grid p::before {
+  content: "L";
+  font-weight: bold;
+  font: 70px "Times New Roman", serif;
+}
+
+.newspaper__grid--column {
+  background-color: #b3b0ae;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 10% 50% auto;
+      grid-template-rows: 10% 50% auto;
+}
+
+.newspaper__grid--description {
+  font: 13px "Arial", serif;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 10px;
+}
+/*# sourceMappingURL=veryhard.css.map */
