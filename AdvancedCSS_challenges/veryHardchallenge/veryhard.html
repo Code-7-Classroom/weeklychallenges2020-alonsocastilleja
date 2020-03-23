@@ -1,0 +1,74 @@
+<!-------
+- Very Hard: Create a newspaper component using HTML and Sass while following BEM guidelines.
+- -The newspaper should contain at least: 
+- -Bold headline at the top 
+     -3 Columns 
+     -2 Images 
+     -2 Modifier Classes 
+     -1 Use of psuedo-elements (:before/:after) 
+     The contents of the newspaper are up to you, lorem ipsum text is acceptable.
+-->
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Newspaper</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="veryhard.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <section class="newspaper__title">
+        <h1 class="newspaper__title--black">Modern Sports News</h1>
+    </section>
+    <section class="newspaper__grid">
+        <div class="newspaper__grid--column">
+            <h1 class="newspaper__grid--heading"> SOCCER</h1>
+            <img class="newspaper__grid--image" src="soccer.jpg" alt="" height="320" width="250">
+            <p class="newspaper__grid--description">orem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+                accusamus itaque nemo exercitationem officia nesciunt a voluptas, ipsam optio. Error nam amet asperiores
+                saepe quidem aperiam ipsa excepturi vel quae!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium aspernatur in corrupti at maiores
+                ullam veritatis suscipit, accusamus perspiciatis. Nobis dolore officia excepturi, quis similique illo
+                perspiciatis id ad explicabo?
+            </p>
+        </div>
+
+        <div class="newspaper__grid--column">
+            <h1 class="newspaper__grid--heading">BASKETBALL</h1>
+            <img class="newspaper__grid--image" src="basketball.jpg" alt="" height="320" width="250">
+            <p class="newspaper__grid--description">orem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+                accusamus itaque nemo exercitationem officia nesciunt a voluptas, ipsam optio. Error nam amet asperiores
+                saepe quidem aperiam ipsa excepturi vel quae!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, magnam. Tenetur atque ipsa pariatur
+                debitis repellat similique mollitia quo reiciendis rerum numquam? Adipisci iusto explicabo sunt odit
+                corrupti distinctio amet?
+            </p>
+        </div>
+
+        <div class="newspaper__grid--column">
+            <h1 class="newspaper__grid--heading">BASEBALL</h1>
+            <img class="newspaper__grid--image" src="baseball.jpg" alt="" height="320" width="250">
+            <p class="newspaper__grid--description">orem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+                accusamus itaque nemo exercitationem officia nesciunt a voluptas, ipsam optio. Error nam amet asperiores
+                saepe quidem aperiam ipsa excepturi vel quae!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vel suscipit ipsa ducimus, consequatur
+                temporibus delectus sequi consectetur quaerat enim unde molestiae eum, doloremque qui amet magni fugiat,
+                eaque maiores.
+            </p>
+        </div>
+    </section>
+
+
+</body>
+
+
+
+</html>

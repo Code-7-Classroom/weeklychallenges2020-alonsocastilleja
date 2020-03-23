@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.product__grid{
+    margin: 50px auto;
+    width: 75%;
+    height: 1100px;
+    display: grid;
+    grid-template-columns: repeat(4, 24.5%);
+    grid-template-rows: repeat(2, 50%);
+    grid-row-gap: 15px;
+    grid-column-gap: 5px;
+    
+}
+.airpodsPro,
+.beatsHP,
+.sonyHP,
+.boseHP,
+.jaybirdHP,
+.beatsSpeaker,
+.jblHP,
+.rayconHP{
+    /*background-color: #ADEFD1FF;*/
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 1.5rem 2rem 32% auto 20%;
+    padding: 15px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border: 0.1px solid grey;
+}
+
+.gridHeader{
+    font-size: 19.5px;
+    text-align: center;  
+  
+}
+.gridHeader_pricing{
+    font-size: 19px;
+    font-weight: bold;    
+}
+.linkStyling{
+    text-decoration: none;   
+}
+.descriptionStyling{
+    font-size: 13px;
+    text-align: center;
+}
+.descriptionStyling_format{
+    align-self: start;
+}
+button{
+    height: 35px;
+    width: 150px;
+    color: white;
+    font-size: 12px;
+    border-radius: 30px;
+    background-color: #00203FFF;
+}
+button:hover{
+    background-color: rgb(36, 91, 209)
+}
