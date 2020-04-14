@@ -11,6 +11,8 @@
  alert('Welcome to the website that does your math homework for you!!!');
  alert('Ready to see some magic? Lets BEGIN.');
 
+
+ // Variable Declaration
  var num1 = parseInt(prompt('What is your first number?'));
 
  var num2 = parseInt(prompt('What is your second number?'));
@@ -18,7 +20,7 @@
  var operator = prompt('What operator do you want to use on these two numbers(either +, -, * or /) ?');
 
 
-
+// Functions declaration
  function add() {
     return num1 + num2;
 }
@@ -37,6 +39,10 @@ function divide() {
 
 
 
+
+
+
+
 if (operator == '+') {
     console.log(num1 + ' ' + operator + ' ' + num2 + ' = ' + add());
 } else if (operator == '-') {
@@ -48,6 +54,7 @@ if (operator == '+') {
 } else {
     console.log('You either did not enter any number(s) or any operator. PLEASE TRY AGAIN');
 }
+
 
 
 
