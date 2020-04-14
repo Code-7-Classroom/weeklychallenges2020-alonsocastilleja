@@ -20,7 +20,7 @@ function cutPizzaSlices(b){
     }
 }
 
-var sharePizza = cutPizzaSlices(8);
+var sharePizza = cutPizzaSlices(8)(3)
 console.log(sharePizza(3));
 
 

@@ -16,15 +16,36 @@
 
 
 function getName(){
-    return function(){              //Immediately Invoked Function
+    return function(){              // Immediately Invoked Function
       var pii = {
           name: 'Alonso',
           lastName: 'Castilleja',
           ssn: '123-45-6789'
       };
-      return pii.name;                  // Only returns names from pii object
+      return pii.ssn;                  // Only returns names from pii object
   }
 }
+
+
+
 var onlyGetName = getName();        // Value of getName() is stored in onlyGetName 
 console.log(onlyGetName());         // Console logs result
+
+
+
+function vladName() {
+  console.log(x + ' is happy');
+}
+
+
+
+
+
+
+
+
+
+
+
+
 

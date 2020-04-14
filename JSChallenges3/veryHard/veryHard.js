@@ -1,10 +1,10 @@
 
 
-// 1
+// 1        //Constructor for Person
 var Person = function(name, job, age) {
     this.name = name;
     this.job = job;
-    this.age = age;
+    this.age = age
 }
 
 // 2 

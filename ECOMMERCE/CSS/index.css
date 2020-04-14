@@ -21,7 +21,7 @@ section.hero__image--products {
 }
 
 /* Product Section Styling */
-.doorlocks__background {
+.doorlocks {
   background: url("../Images/Locks/doorlockbg.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -37,7 +37,7 @@ section.hero__image--products {
           align-items: flex-end;
 }
 
-.doorlocks__background--caption {
+.doorlocks__caption {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 50px;
   height: 300px;
@@ -238,19 +238,11 @@ section.hero__image--products {
 }
 
 /*Top logo container styling */
-header {
+.header {
   width: 100%;
   margin-bottom: 20px;
   position: fixed;
   background-color: rgba(226, 226, 226, 0.95);
-}
-
-.heading__container {
-  text-align: center;
-}
-
-/* Navigation Bar Styling  */
-.subcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -266,21 +258,21 @@ header {
           align-items: center;
 }
 
-.subcontainer__logo {
+.header__logo {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   height: 100%;
 }
 
-.subcontainer__title {
+.header__title {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 20px;
 }
 
-nav {
+.header__nav {
   height: 90px;
   width: 70%;
   display: -webkit-box;
@@ -297,7 +289,7 @@ nav {
       align-self: center;
 }
 
-nav .container__nav--items {
+.header__nav-items {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -315,13 +307,14 @@ nav .container__nav--items {
           justify-content: flex-end;
 }
 
-nav .container__nav--items li {
+.header__nav-items li {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  align-self: center;
 }
 
-nav .container__nav--items li a {
+.header__nav-items li a {
   text-decoration: none;
   width: 100%;
   height: 100%;
@@ -331,6 +324,15 @@ nav .container__nav--items li a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+.header__nav-items li.current a {
+  color: #2f2fa2;
+}
+
+.header__nav-items li a:hover {
+  color: #fafafa;
+}
+
+/* Navigation Bar Styling  */
 /* Footer Styling */
 footer {
   font-family: Arial, Helvetica, sans-serif;
@@ -772,13 +774,11 @@ body {
   font-size: 20px;
 }
 
-footer .footer__box--items .current a,
-nav .container__nav--items .current a {
+footer .footer__box--items .current a {
   color: #2f2fa2;
 }
 
-footer .footer__box--items a:hover,
-nav .container__nav--items a:hover {
+footer .footer__box--items a:hover {
   color: rgba(255, 63, 49, 0.8);
 }
 /*# sourceMappingURL=index.css.map */

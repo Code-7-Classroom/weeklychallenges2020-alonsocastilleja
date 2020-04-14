@@ -48,11 +48,9 @@ body {
   color: $font-color;
   font-size: $font-h2;
 }
-footer .footer__box--items .current a,
-nav .container__nav--items .current a{
+footer .footer__box--items .current a{
   color: $maincolor;
 }
-footer .footer__box--items a:hover,
-nav .container__nav--items a:hover{
+footer .footer__box--items a:hover{
   color: $secondarycolor;
 }
