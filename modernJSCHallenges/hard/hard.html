@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dom Manipulation Hard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        button {
+            padding: 10px;
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+
+        .bg-white {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn-red">
+        Turn it red!
+    </button>
+
+    <button id="btn-white">
+        Turn it white!
+    </button>
+
+
+    <script>
+        // Do Stuff Here
+            const colorChange = () => {
+                document.querySelector('#btn-red').addEventListener('click', () => {
+                    document.body.classList.remove('bg-white')
+                    document.body.classList.toggle('bg-red');
+                })
+                document.querySelector('#btn-white').addEventListener('click', () => {
+                    document.body.classList.remove('bg-red')
+                    document.body.classList.toggle('bg-white');
+                })
+            }
+            colorChange();
+    </script>
+</body>
+
+</html>
